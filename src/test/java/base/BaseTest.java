@@ -40,9 +40,9 @@ public class BaseTest {
         driver.get(props.getProperty("url"));
     }
 
-	@AfterTest
-	public void tearDown(){
-		driver.quit();
-	}
+//	@AfterTest
+//	public void tearDown(){
+//		driver.quit();
+//	}
 
 }
